@@ -1,1 +1,3 @@
-# MasterThesis
+# Master Thesis, Using RobBERT for Implicit and Explicit Skill-Extraction from Dutch Job Descriptions, Ninande Vermeer (2021)
+
+The code in this repository is part of the master thesis "Using RobBERT for Implicit and Explicit Skill-Extraction from Dutch Job Descriptions" of Ninande Vermeer (2021) and could be used to run the experiments of the project. However, the Sample and RO sample datasets cannot be made available. Therefore, it is only possible to run the code with the dataset of Bhola et al. that can be found via their BERT-XMLC Github repository: https://github.com/WING-NUS/JD2Skills-BERT-XMLC. Add the dataset to an Amazon Web Services Bucket or a local folder (note that some more changes to the code are required for this last option to work), import the required packages and change the parameters in the "Settings" section of the Jupyter Notebook to fit the specific experiment.
